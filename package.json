@@ -1,5 +1,5 @@
 {
-  "name": "strapi",
+  "name": "codebrew-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,17 +10,18 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.8",
-    "@strapi/plugin-users-permissions": "4.1.8",
-    "@strapi/strapi": "4.1.8",
-    "better-sqlite3": "7.4.6",
+    "@strapi/plugin-i18n": "4.1.11",
+    "@strapi/plugin-users-permissions": "4.1.11",
+    "@strapi/strapi": "4.1.11",
+    "pg": "^8.6.0",
+    "pg-connection-string": "^2.5.0",
     "slugify": "^1.6.5"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "66f8445c-d077-4585-accd-51b2a01a6233"
+    "uuid": "fb2ac2bb-361d-4e31-b49f-c7509563d9e8"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
